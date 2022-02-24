@@ -1,0 +1,41 @@
+:root{
+    --color-orange: hsl(31, 77%, 52%);
+    --color-dark-cyan: hsl(184, 100%, 22%);
+    --color-vd-cyan: hsl(179, 100%, 13%);
+}
+
+.bg-orange{
+    background-color: var(--color-orange);
+}
+.bg-dark-cyan{
+    background-color: var(--color-dark-cyan);
+}
+.bg-vd-cyan{
+    background-color: var(--color-vd-cyan);
+}
+.text-orange{
+    color: var(--color-orange)!important;
+}
+.text-dark-cyan{
+    color: var(--color-dark-cyan)!important;
+}
+.text-vd-cyan{
+    color: var(--color-vd-cyan)!important;
+}
+.ff-title{
+    font-family: 'Big Shoulders Display', cursive;
+}
+.ff-description{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.fs-description{
+    font-size: 15.2px;
+}
+.mt-custom{
+    margin-top: 90px;
+}
+
+.rounded-custom{
+    border-radius: 15px;
+}
